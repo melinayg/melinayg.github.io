@@ -7,10 +7,10 @@ const myImage = document.querySelector("img");
 
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
-  if (mySrc === "/Users/mel/Desktop/DS4200/DS4200-HW1/test-site/images/cat.jpeg") {
-    myImage.setAttribute("src", "/Users/mel/Desktop/DS4200/DS4200-HW1/test-site/images/cat2.jpeg");
+  if (mySrc === "cat.jpeg") {
+    myImage.setAttribute("src", "cat2.jpeg");
   } else {
-    myImage.setAttribute("src", "/Users/mel/Desktop/DS4200/DS4200-HW1/test-site/images/cat.jpeg");
+    myImage.setAttribute("src", "cat.jpeg");
   }
 };
 
